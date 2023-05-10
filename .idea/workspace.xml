@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e0e8b8bf-6005-4060-a9e6-c33fb60d5c8f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/TrainingAPI/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrainingAPI/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrainingAPI/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrainingAPI/app/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrainingAPI/app/apis/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrainingAPI/app/apis/auth_blueprint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrainingAPI/app/apis/books_blueprint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrainingAPI/app/apis/example_blueprint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrainingAPI/app/constants/cache_constants.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrainingAPI/app/constants/mongodb_constants.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrainingAPI/app/databases/mongodb.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrainingAPI/app/databases/redis_cached.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrainingAPI/app/decorators/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrainingAPI/app/decorators/auth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrainingAPI/app/decorators/json_validator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrainingAPI/app/extensions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrainingAPI/app/hooks/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrainingAPI/app/hooks/error.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrainingAPI/app/hooks/request_context.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrainingAPI/app/misc/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrainingAPI/app/misc/log.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrainingAPI/app/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrainingAPI/app/models/book.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrainingAPI/app/models/user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrainingAPI/app/utils/jwt_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrainingAPI/app/utils/logger_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrainingAPI/app/views/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrainingAPI/app/views/sample/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrainingAPI/app/views/sample/sample.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrainingAPI/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrainingAPI/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrainingAPI/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrainingAPI/testing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrainingAPI/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrainingAPI/tests/books_test.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2PZ1LYRxQkBOMIaYFsrokEDkZHP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/lovetonight/Blockchain/sanic-training&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e0e8b8bf-6005-4060-a9e6-c33fb60d5c8f" name="Changes" comment="" />
+      <created>1683649735833</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1683649735833</updated>
+      <workItem from="1683649737200" duration="2817000" />
+      <workItem from="1683653729356" duration="1642000" />
+      <workItem from="1683698632991" duration="6252000" />
+      <workItem from="1683708999916" duration="2148000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
