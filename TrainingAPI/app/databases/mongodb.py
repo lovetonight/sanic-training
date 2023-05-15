@@ -14,9 +14,9 @@ logger = get_logger('MongoDB')
 class MongoDB:
     def __init__(self, connection_url=None):
         if connection_url is None:
-            connection_url = f'mongodb://{MongoDBConfig.HOST}:{MongoDBConfig.PORT}'
+            connection_url = f'mongodb://{MongoDBConfig.USERNAME}:{MongoDBConfig.PASSWORD}@{MongoDBConfig.HOST}:{MongoDBConfig.PORT}'
 
-        self.connection_url = f'mongodb://{MongoDBConfig.HOST}:{MongoDBConfig.PORT}'
+        self.connection_url = f'mongodb://{MongoDBConfig.USERNAME}:{MongoDBConfig.PASSWORD}@{MongoDBConfig.HOST}:{MongoDBConfig.PORT}'
         self.client = MongoClient(self.connection_url)
         self.db = self.client[MongoDBConfig.DATABASE]
         print("connection: ", self.connection_url)
