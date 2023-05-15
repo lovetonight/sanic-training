@@ -7,7 +7,7 @@ load_dotenv()
 
 class Config:
     RUN_SETTING = {
-        'host': os.environ.get('SERVER_HOST', 'localhost'),
+        'host': os.environ.get('SERVER_HOST', '0.0.0.0'),
         'port': int(os.environ.get('SERVER_PORT', 1221)),
         'debug': False,
         "access_log": True,
@@ -31,8 +31,8 @@ class RemoteDBConfig:
 
 
 class MongoDBConfig:
-    USERNAME = os.environ.get("MONGO_USERNAME") or "admin"
-    PASSWORD = os.environ.get("MONGO_PASSWORD") or "admin123"
-    HOST = os.environ.get("MONGO_HOST") or "localhost"
+    USERNAME = os.environ.get("MONGO_USERNAME") or "lovetonight"
+    PASSWORD = os.environ.get("MONGO_PASSWORD") or "hoandt"
+    HOST = os.environ.get("MONGO_HOST") or "0.0.0.0"
     PORT = os.environ.get("MONGO_PORT") or "27017"
     DATABASE = os.environ.get("MONGO_DATABASE") or "test"
